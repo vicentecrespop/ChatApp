@@ -8,7 +8,6 @@ import Chat from './screens/Chat';
 import Login from './screens/Login';
 import Signup from './screens/Signup';
 import Home from './screens/Home';
-import { useSafeAreaFrame } from 'react-native-safe-area-context';
 import { auth } from './config/firebase';
 
 const Stack = createStackNavigator()

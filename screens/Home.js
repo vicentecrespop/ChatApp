@@ -16,8 +16,8 @@ const Home = () => {
                 <FontAwesome name="search" size={24} color={colors.gray} style={{marginLeft: 15}} />
             },
             headerRight: () => {
-                <Image 
-                    source={{ uri: catImageUri }}
+                <Image
+                    source={catImageUri}
                     style={{ width: 40, height: 40, marginRight: 15}}
                 />
             }
